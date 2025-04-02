@@ -6,7 +6,7 @@ from langchain_community.tools import Tool, DuckDuckGoSearchResults
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "API_KEY"
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
